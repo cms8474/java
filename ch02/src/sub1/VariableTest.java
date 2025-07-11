@@ -20,7 +20,7 @@ public class VariableTest {
 		a = 5; // 재할당
 		int A = 1; // 대소문자 구분함
 		System.out.println("재할당 a : " + a);
-		System.out.printf("A: %d, a: %d\n\" , A, a); // 대소문자 구분 예시
+		System.out.printf("A: %d, a: %d\n", A, a); // 대소문자 구분 예시
 		System.out.println("b : " + b);
 		
 		// 상수(Constant) 한 번 초기화 된 값으로 고정
