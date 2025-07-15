@@ -28,7 +28,7 @@ public class PolyTest {
 		shark.move();
 		
 		// 다운캐스팅 - 부모타입의 객체를 자식타입으로 캐스팅(Casting, 형변환)
-		Tiger t = (Tiger)tiger;
+		Animal t = (Tiger)tiger;
 		Eagle e = (Eagle)eagle;
 		Shark s = (Shark)shark;
 		
