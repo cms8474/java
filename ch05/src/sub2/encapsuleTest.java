@@ -1,4 +1,5 @@
 package sub2;
+
 /*
  * 날짜 20250714
  * 이름 최민수
@@ -51,6 +52,38 @@ public class encapsuleTest {
 		wr.deposit(20000);
 		wr.show();
 		
-	}
-
+		/////////////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////
+		
+		Book book1 = new Book("삼국지", "나관중", "10001", 10);
+		
+		boolean is0k1 = book1.borrowBook();
+		
+		if(is0k1) {
+			System.out.println(book1.getTitle() + "도서대출성공");
+		}else {
+			System.out.println(book1.getTitle() + "도서대출실패");
+		}
+		
+		book1.show();
+		
+		/////////////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////
+		/////////////////////////////////////////////////////////////
+		
+		Book book2 = new Book("명품자바", "황기태", "10002", 1);
+		
+		boolean is0k2 = book2.borrowBook();
+		
+		if(is0k2) {
+			System.out.println(book2.getTitle() + "도서대출성공");
+		}else {
+			System.out.println(book2.getTitle() + "도서대출실패");
+		}
+		
+		book2.show();
+		
+		
+	}// main ed
 }
