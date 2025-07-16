@@ -1,4 +1,7 @@
 package sub6;
+
+import java.security.PublicKey;
+
 /*
  * 날짜 20250715
  * 이름 최민수
@@ -42,7 +45,27 @@ public class PolyTest {
 		arr[1].move();
 		arr[2].move();
 		
+		//0716 연습
+		pet dog = new Dog();
+		pet cat = new Cat();
+		
+		dog.makeSound();
+		cat.makeSound();
+		
+		printSound(cat);
+		
 
 		
 	} //Med
+	public static void printSound(pet a) {
+		if(a instanceof Dog) {
+			System.out.println("멍멍");
+		}else {
+			System.out.println("야옹");
+		}
+	}
+	public static void printSound2(pet pet) {
+		pet.makesound();
+	}
+	
 } //Ted
