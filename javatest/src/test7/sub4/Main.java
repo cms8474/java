@@ -1,5 +1,7 @@
 package test7.sub4;
 
+import java.util.List;
+
 public class Main {
 	public static void main(String[] args) {
 		
@@ -51,7 +53,7 @@ public class Main {
 		List<Comment> comments = article.getComments();
 		
 		for (Comment comment : comments) {
-			System.out.println("└ "+comment.getContent());
+			System.out.println("└ "+comment.getContect());
 		}
 		System.out.println("--------------------------------------");
 		
