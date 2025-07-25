@@ -20,10 +20,6 @@ class Member {
 		//return "Member [id=" + id + ", name=" + name + ", age=" + age + "]";
 		return this.id + ", " + this.name +", " +  this.age ;
 	}
-	
-	
-
-	
 }
 
 public class Test08 {
@@ -31,7 +27,6 @@ public class Test08 {
 		Member m1 = new Member("a101", "김유신", 23);
 		Member m2 = new Member("a102", "김춘추", 21);
 		Member m3 = new Member("a103", "장보고", 33);
-		
 		
 		ArrayList<Member> memberList = new ArrayList<>();
 		memberList.add(m1);
@@ -41,7 +36,5 @@ public class Test08 {
 		for(Member m : memberList) {
 			System.out.println(m);
 		}
-		
-		
 	}//med
 }//ed

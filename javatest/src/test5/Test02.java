@@ -16,11 +16,8 @@ public class Test02 {
 			if(i == find) {
 				return;
 			}
-			
 		}
 		throw new NotFoundException();
-		
-		
 	}
 	
 	public static void main(String[] args) {

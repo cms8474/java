@@ -5,10 +5,10 @@ public class Test04 {
 		
 		String fileName = "HelloWorld.java";
 		
-		int idx = fileName.lastIndexOf(".");
+		int idx = fileName.indexOf(".");
 		
 		String title = fileName.substring(0, idx);
-		String ext	 = fileName.substring(11, 15);
+		String ext	 = fileName.substring(idx);
 		
 		System.out.println("파일명: "+ title);
 		System.out.println("확장자: "+ ext);
